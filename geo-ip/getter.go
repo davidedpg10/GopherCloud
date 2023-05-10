@@ -2,6 +2,7 @@ package geo_ip
 
 type GeoIP struct {
 	Country     string
+	Region      string
 	City        string
 	CountryCode string
 	IP          string

@@ -49,7 +49,8 @@ func (geoJs GeoJs) Get() (GeoIP, error) {
 	}
 
 	geoIP := GeoIP{
-		Country:     geoJs.CountryCode,
+		Country:     geoJs.Country,
+		Region:      geoJs.Region,
 		City:        geoJs.City,
 		CountryCode: geoJs.CountryCode,
 		IP:          geoJs.IP,
